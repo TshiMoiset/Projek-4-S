@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+@font-face {
+	font-family: "Chopsic";
+	src: url("Chopsic-K6Dp.ttf") format("woff");
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: black;
+}
+
+.logo {
+	font-family: "Chopsic";
+	font-size: 1.3rem;
+	cursor: pointer;
+	transition: 500ms;
+}
+
+.logo:hover {
+	color: #ccc;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	color: white;
+}
+
+.navigation ul li {
+	display: inline;
+	margin: 0 20px;
+}
+
+.navigation a {
+	font-family: "Montserrat", sans-serif;
+	text-decoration: none;
+	color: white;
+	transition: 500ms;
+}
+
+.navigation a:hover {
+	color: grey;
+	text-decoration: underline;
+}
+
+.part1 {
+	margin: 0;
+	min-height: 100vh;
+	width: 100%;
+	/*background-image: url("images/Dave\ Chappelle\ smoke.jpg");*/
+	background-image: linear-gradient(rgba(4, 9, 20, 0.5), rgba(4, 9, 20, 0.5)),
+		url(images/Dave\ Chappelle\ smoke.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.heroImgText {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 30%;
+	color: white;
+}
+
+.part2 {
+	margin: 20px;
+	display: flex;
+	/*flex-wrap: wrap;*/
+	justify-content: space-evenly;
+	text-align: center;
+}
+
+.part2 img {
+	border-radius: 5%;
+}
+
+.part2Img1,
+.part2Img3 {
+	width: 350px;
+	height: auto;
+}
+
+.part2Img2 {
+	width: 367.5px;
+	height: auto;
+}
+
+.part2Left,
+.part2Center,
+.part2Right {
+	transition: 500ms;
+}
+
+.part2Left:hover,
+.part2Center:hover,
+.part2Right:hover {
+	transform: scale(1.03);
+}
+
+::-webkit-scrollbar {
+	width: 4px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #ccc;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: rgb(148, 148, 148);
+}
