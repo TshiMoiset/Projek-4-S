@@ -73,7 +73,6 @@ header {
 .part2 {
 	margin: 20px;
 	display: flex;
-	/*flex-wrap: wrap;*/
 	justify-content: space-evenly;
 	text-align: center;
 }
@@ -103,6 +102,11 @@ header {
 .part2Center:hover,
 .part2Right:hover {
 	transform: scale(1.03);
+}
+
+.imgText {
+	text-align: left;
+	margin: 1rem;
 }
 
 ::-webkit-scrollbar {
