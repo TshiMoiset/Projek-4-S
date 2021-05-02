@@ -10,8 +10,17 @@ body {
 	padding: 0;
 }
 
+figcaption {
+	text-align: left;
+	padding: 15px 0;
+}
+
 header {
 	background-color: black;
+}
+
+ul {
+	list-style: none;
 }
 
 .logo {
@@ -79,17 +88,6 @@ header {
 
 .part2 img {
 	border-radius: 5%;
-}
-
-.part2Img1,
-.part2Img3 {
-	width: 350px;
-	height: auto;
-}
-
-.part2Img2 {
-	width: 367.5px;
-	height: auto;
 }
 
 .part2Left,
