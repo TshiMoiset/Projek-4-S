@@ -1,3 +1,7 @@
+@import url("https://css.gg/youtube.css");
+@import url("https://css.gg/instagram.css");
+@import url("https://css.gg/twitter.css");
+@import url("https://css.gg/facebook.css");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 @font-face {
@@ -141,3 +145,63 @@ ul {
 	text-align: center;
 	color: white;
 }*/
+
+/*------------ Footer --------------*/
+
+footer {
+	padding: 15px;
+	bottom: 0;
+	font-family: "Gill-Sans";
+	background-color: #040b12;
+	color: #ccc;
+	font-family: "Montserrat", sans-serif;
+}
+
+.footerLogo {
+	font-family: "Chopsic";
+	cursor: pointer;
+	transition: 500ms;
+	padding: 12px;
+	color: #ccc;
+}
+
+.footerContent {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+	padding: 10px 0 10px 0;
+}
+
+.footerContent a {
+	text-decoration: none;
+	color: #ccc;
+	transition: 300ms;
+}
+
+.footerContent a:hover {
+	color: white;
+}
+
+.footerLeft {
+	display: flex;
+	align-items: center;
+}
+
+.footerLeft ul li {
+	display: inline;
+	margin: 0 6px;
+}
+
+.footerRight ul li {
+	display: inline;
+	margin: 0 20px;
+}
+
+.footerRight ul {
+	display: flex;
+	align-items: center;
+	padding: 0;
+}
