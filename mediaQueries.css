@@ -1,19 +1,43 @@
 @media screen and (max-width: 769px) {
-	.navigation {
-		flex-direction: column;
-		align-items: flex-start;
-	}
-
-	.navigationLinks ul {
+	/*	.navigationLinks ul {
 		flex-direction: column;
 		padding: 0;
 	}
 
+	.navButton {
+		display: flex;
+	}
+	*/
+
+	.navigation {
+		flex-direction: column;
+	}
+
 	.navigationLinks {
-		/*display: none;*/
+		display: none;
+		background-color: black;
+		width: 100%;
+	}
+
+	.navigationLinks.active {
+		display: unset;
+		background-color: black;
+		width: 100%;
+	}
+
+	.navigationLinks ul {
+		flex-direction: column;
+		text-align: center;
 	}
 
 	.navButton {
 		display: flex;
+	}
+
+	.logo-navbutton {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
 	}
 }

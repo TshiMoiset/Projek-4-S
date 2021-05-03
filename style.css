@@ -25,6 +25,8 @@ main {
 
 header {
 	background-color: black;
+	color: white;
+	font-family: "Montserrat", sans-serif;
 }
 
 ul {
@@ -47,7 +49,51 @@ ul {
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px 20px;
+}
+
+.navigationLinks ul {
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+.navigationLinks a {
+	display: block;
+	text-decoration: none;
 	color: white;
+	margin: 1rem;
+	transition: 500ms;
+}
+
+.navbanavigationLinksrLinks a:hover {
+	color: #ccc;
+}
+
+.navigationLinks li {
+	padding-left: 1.5rem;
+}
+
+.navButton {
+	display: none;
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+/*.navButton {
+	position: absolute;
+	top: 0.75rem;
+	right: 1rem;
+	display: none;
+	font-size: 2rem;
+}*/
+
+/*
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	padding: 10px 20px;
 }
 
 .navigation ul li {
@@ -69,8 +115,7 @@ ul {
 
 .navigationLinks ul {
 	display: flex;
-	max-width: 15vh;
-}
+}*/
 
 .part1 {
 	margin: 0;
@@ -205,14 +250,6 @@ footer {
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
-}
-
-.navButton {
-	display: none;
-	flex-direction: column;
-	font-size: 2rem;
-	top: 0.75rem;
-	right: 1rem;
 }
 
 .closeButton {
