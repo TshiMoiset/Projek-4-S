@@ -45,4 +45,16 @@
 	}
 
 	/*--------------- footer -------------*/
+
+	.footerContent {
+		flex-direction: column-reverse;
+	}
+
+	.footerLeft {
+		flex-direction: column;
+	}
+
+	.footerLeft ul {
+		padding: 0px;
+	}
 }
