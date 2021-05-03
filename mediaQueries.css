@@ -1,0 +1,9 @@
+@media screen and (max-width: 769px) {
+	.navigationLinks {
+		display: none;
+	}
+
+	.navButton {
+		display: flex;
+	}
+}

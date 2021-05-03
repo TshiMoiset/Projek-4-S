@@ -1,3 +1,4 @@
+@import url("https://css.gg/format-justify.css");
 @import url("https://css.gg/youtube.css");
 @import url("https://css.gg/instagram.css");
 @import url("https://css.gg/twitter.css");
@@ -193,6 +194,10 @@ footer {
 	display: flex;
 	align-items: center;
 	padding: 0;
+}
+
+.navButton {
+	display: none;
 }
 
 /*
