@@ -57,6 +57,12 @@
 	.footerLeft ul {
 		padding: 0;
 	}
+
+	.davesMovies {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
 }
 
 @media screen and (max-width: 560px) {

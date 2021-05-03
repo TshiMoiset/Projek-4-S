@@ -221,6 +221,23 @@ footer {
 	display: none;
 }
 
+/*-------------	Movies ---------------*/
+
+h1 {
+	margin: 20px;
+	text-align: center;
+}
+
+.davesMovies {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.davesMovies figure {
+	width: 14em;
+	height: auto;
+}
+
 /*
 .test {
 	top: 5em;
