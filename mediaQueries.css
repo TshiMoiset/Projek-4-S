@@ -55,6 +55,12 @@
 	}
 
 	.footerLeft ul {
-		padding: 0px;
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.footerLeft a {
+		display: block;
 	}
 }
