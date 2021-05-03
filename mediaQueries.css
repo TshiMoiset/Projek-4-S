@@ -1,14 +1,4 @@
 @media screen and (max-width: 769px) {
-	/*	.navigationLinks ul {
-		flex-direction: column;
-		padding: 0;
-	}
-
-	.navButton {
-		display: flex;
-	}
-	*/
-
 	.navigation {
 		flex-direction: column;
 	}
