@@ -65,6 +65,10 @@ ul {
 	transition: 500ms;
 }
 
+.navigationLinks a:hover {
+	color: #ccc;
+}
+
 .navbanavigationLinksrLinks a:hover {
 	color: #ccc;
 }
