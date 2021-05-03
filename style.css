@@ -165,6 +165,10 @@ footer {
 	color: #ccc;
 }
 
+.footerLogo:hover {
+	color: white;
+}
+
 .footerContent {
 	display: flex;
 	flex-direction: row;
