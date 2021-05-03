@@ -1,4 +1,5 @@
 @media screen and (max-width: 769px) {
+	/*--------------- Header -------------*/
 	.navigation {
 		flex-direction: column;
 	}
@@ -32,6 +33,8 @@
 		width: 100%;
 	}
 
+	/*--------------- Main -------------*/
+
 	.part2 {
 		flex-direction: column;
 		align-items: center;
@@ -40,4 +43,6 @@
 	figcaption {
 		text-align: center;
 	}
+
+	/*--------------- footer -------------*/
 }
