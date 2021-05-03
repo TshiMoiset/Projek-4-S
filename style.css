@@ -238,6 +238,14 @@ h1 {
 	height: auto;
 }
 
+.movie {
+	transition: 500ms;
+}
+
+.movie:hover {
+	transform: scale(1.02);
+}
+
 /*
 .test {
 	top: 5em;
