@@ -33,6 +33,21 @@
 		width: 100%;
 	}
 
+	/*-------------	Standup ---------------*/
+
+	.standup1,
+	.standup3 {
+		flex-wrap: wrap-reverse;
+	}
+
+	.standupReverse {
+		flex-wrap: wrap;
+	}
+
+	.standupsText p {
+		margin: 0 5em 0 5em;
+	}
+
 	/*--------------- Main -------------*/
 
 	.part2 {
