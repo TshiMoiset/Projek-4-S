@@ -271,3 +271,30 @@ h1 {
 	left: 30%;
 	text-align: center;
 }*/
+
+.standup1,
+.standupReverse,
+.standup3,
+.standupReverse {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+:is(.standup1, .standupReverse, .standup3, .standupReverse) img {
+	width: 600px;
+	height: auto;
+	border-radius: 5%;
+}
+
+.mainStandups figcaption {
+	text-align: center;
+}
+
+.mainStandups h2 {
+	text-align: center;
+}
+
+.standupsText p {
+	margin: 30px;
+}
