@@ -87,7 +87,6 @@ ul {
 	margin: 0;
 	min-height: 100vh;
 	width: 100%;
-	/*background-image: url("images/Dave\ Chappelle\ smoke.jpg");*/
 	background-image: linear-gradient(rgba(4, 9, 20, 0.5), rgba(4, 9, 20, 0.5)),
 		url(images/Dave\ Chappelle\ smoke.jpg);
 	background-position: center;
@@ -96,11 +95,28 @@ ul {
 }
 
 .heroImgText {
-	position: absolute;
+	/*position: absolute;
 	transform: translate(-50%, -50%);
 	top: 50%;
 	left: 40%;
+	color: white;*/
+
+	width: 90%;
 	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.heroImgText h1 {
+	text-align: left;
+	margin: 0;
+}
+
+.heroImgText p {
+	text-align: left;
+	width: 50%;
 }
 
 .part2 {
