@@ -66,11 +66,15 @@
 }
 
 @media screen and (max-width: 560px) {
+	.heroImgText h1 {
+		text-align: center;
+	}
 
+	.heroImgText p {
+		text-align: center;
+		width: 100%;
+	}
 
-
-
-	
 	.footerLeft a {
 		display: block;
 	}
