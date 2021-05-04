@@ -93,4 +93,28 @@
 	.footerLeft a {
 		display: block;
 	}
+
+	/*-------------	Standup ---------------*/
+
+	.standup1,
+	.standup3 {
+		flex-wrap: wrap-reverse;
+	}
+
+	.standup1 img,
+	.standupReverse img,
+	.standup3 img,
+	.standupReverse img {
+		width: 600px;
+		height: auto;
+		border-radius: 5%;
+	}
+
+	.standupReverse {
+		flex-wrap: wrap;
+	}
+
+	.standupsText p {
+		margin: 0 5em 0 5em;
+	}
 }
