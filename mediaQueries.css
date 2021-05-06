@@ -96,7 +96,7 @@
 
 	/*-------------	Standup ---------------*/
 
-	.standup1,
+	/*.standup1,
 	.standup3 {
 		flex-wrap: wrap-reverse;
 	}
@@ -116,5 +116,5 @@
 
 	.standupsText p {
 		margin: 0 5em 0 5em;
-	}
+	}*/
 }
